@@ -1,6 +1,6 @@
-require 'emblem/rails/template'
+require 'emblemjs/rails/template'
 
-module Emblem
+module Emblemjs
   module Rails
     class Engine < ::Rails::Engine
       initializer "ember_rails.setup", :after => :append_assets_path, :group => :all do |app|
@@ -9,7 +9,7 @@ module Emblem
         else
           app.assets
         end
-        sprockets.register_engine '.emblem', Emblem::Rails::Template
+        sprockets.register_engine '.emblem', Emblemjs::Rails::Template
       end
     end
   end

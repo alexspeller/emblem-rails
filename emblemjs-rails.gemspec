@@ -1,11 +1,11 @@
 # -*- encoding: utf-8 -*-
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'emblem/rails/version'
+require 'emblemjs/rails/version'
 
 Gem::Specification.new do |gem|
-  gem.name          = "emblem-rails"
-  gem.version       = Emblem::Rails::VERSION
+  gem.name          = "emblemjs-rails"
+  gem.version       = Emblemjs::Rails::VERSION
   gem.authors       = ["Alex Speller"]
   gem.email         = ["alex@alexspeller.com"]
   gem.description   = %q{Use emblem.js with ember-rails - see https://github.com/machty/emblem.js}

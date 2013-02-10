@@ -3,7 +3,7 @@ require 'sprockets/engines'
 require 'ember/handlebars/template'
 require 'barber-emblem'
 
-module Emblem
+module Emblemjs
   module Rails
     class Template < Ember::Handlebars::Template
 
