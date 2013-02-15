@@ -6,7 +6,7 @@ require 'emblem/rails/version'
 Gem::Specification.new do |gem|
   gem.name          = "emblem-rails"
   gem.version       = Emblem::Rails::VERSION
-  gem.authors       = ["Alex Speller"]
+  gem.authors       = ["Alex Speller", "Alex Matchneer"]
   gem.email         = ["alex@alexspeller.com"]
   gem.description   = %q{Use emblem.js with ember-rails - see https://github.com/machty/emblem.js}
   gem.summary       = %q{Use emblem.js with ember-rails}
@@ -16,5 +16,5 @@ Gem::Specification.new do |gem|
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
   gem.require_paths = ["lib"]
-  gem.add_dependency "barber-emblem", "0.0.2"
+  gem.add_dependency "barber-emblem", "0.0.3"
 end
