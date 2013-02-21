@@ -9,7 +9,7 @@ module Emblem
 
       def evaluate(scope, locals, &block)
         target = template_target(scope)
-        raw = handlebars?(scope)
+        raw = raw?(scope)
 
         template = data
 
@@ -32,7 +32,7 @@ module Emblem
 
       private
 
-      def handlebars?(scope)
+      def raw?(scope)
         scope.pathname.to_s =~ /\.raw\.(emblem)/
       end
 
