@@ -16,6 +16,6 @@ Gem::Specification.new do |gem|
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
   gem.require_paths = ["lib"]
-  gem.add_dependency "barber-emblem", ">= 0.0.4"
-  gem.add_dependency "ember-rails", ">= 0.9.2"
+  gem.add_dependency "barber-emblem", "~> 0.1.1"
+  gem.add_dependency "ember-rails", ">= 0.10.2"
 end

@@ -32,6 +32,10 @@ module Emblem
 
       private
 
+      def handlebars?(scope)
+        scope.pathname.to_s =~ /\.raw\.(emblem)/
+      end
+
       def compile_emblem(string)
         "Handlebars.compile(#{indent(string).inspect});"
       end
