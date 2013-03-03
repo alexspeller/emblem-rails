@@ -17,4 +17,10 @@ Now any templates ending in `.emblem` will be compiled as
 Ember-Handlebars templates. If you need to compile your Emblem templates
 with vanilla Handlebars, use the `.raw.emblem` extension.
 
+## Upgrading to the latest Emblem
+
+This gem is only responsible for integrating Emblem.js with Rails. Any
+updates to the Emblem language itself can be pulled in via
+ 
+    $ bundle update emblem-source
 
