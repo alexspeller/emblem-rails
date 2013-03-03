@@ -15,6 +15,6 @@ And then execute:
 
 Now any templates ending in `.emblem` will be compiled as
 Ember-Handlebars templates. If you need to compile your Emblem templates
-with vanilla Handlebars, use the `.raw.embem` extension.
+with vanilla Handlebars, use the `.raw.emblem` extension.
 
 
