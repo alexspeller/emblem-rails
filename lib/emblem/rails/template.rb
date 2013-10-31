@@ -8,7 +8,7 @@ module Emblem
     class Template < Ember::Handlebars::Template
 
       def evaluate(scope, locals, &block)
-        target = template_target(scope)
+        target = global_template_target(scope)
         raw = raw?(scope)
 
         template = data
