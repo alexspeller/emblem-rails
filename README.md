@@ -6,16 +6,16 @@ Integrate [Emblem.js](https://github.com/machty/emblem.js) with ember-rails
 
 Add `gem 'emblem-rails'` to your application's Gemfile after `ember-rails`:
 
-    gem 'ember-rails'
-    gem 'emblem-rails'
-    
-### Ember 1.9 Support
+```ruby
+gem 'ember-rails'
+gem 'emblem-rails'
 
-Currently for Ember 1.9 support, you need to use the master branch of emblem-source and a fork of barber-emblem:
+# If you are using Ember 1.9, you will currently need to specify the master branch of 
+# emblem source, and a fork of barber-emblem:
 
-    gem "emblem-source", github: "machty/emblem.js"
-    gem "barber-emblem", github: "simcha/barber-emblem"
-
+gem "emblem-source", github: "machty/emblem.js"
+gem "barber-emblem", github: "simcha/barber-emblem"
+```
 And then execute:
 
     $ bundle
