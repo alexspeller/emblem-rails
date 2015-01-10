@@ -8,10 +8,18 @@ Add `gem 'emblem-rails'` to your application's Gemfile after `ember-rails`:
 
     gem 'ember-rails'
     gem 'emblem-rails'
+    
+### Ember 1.9 Support
+
+Currently for Ember 1.9 support, you need to use the master branch of emblem-source and a fork of barber-emblem:
+
+    gem "emblem-source", github: "machty/emblem.js"
+    gem "barber-emblem", github: "simcha/barber-emblem"
 
 And then execute:
 
     $ bundle
+
 
 Now any templates ending in `.emblem` will be compiled as
 Ember-Handlebars templates. If you need to compile your Emblem templates
