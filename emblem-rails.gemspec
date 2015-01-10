@@ -11,6 +11,7 @@ Gem::Specification.new do |gem|
   gem.description   = %q{Use emblem.js with ember-rails - see https://github.com/machty/emblem.js}
   gem.summary       = %q{Use emblem.js with ember-rails}
   gem.homepage      = "http://github.com/alexspeller/emblem-rails"
+  gem.license       = 'MIT'
 
   gem.files         = `git ls-files`.split($/)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
