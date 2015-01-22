@@ -14,7 +14,6 @@ gem 'emblem-rails'
 # emblem source, and a fork of barber-emblem:
 
 gem "emblem-source", github: "machty/emblem.js"
-gem "barber-emblem", github: "simcha/barber-emblem"
 ```
 And then execute:
 
