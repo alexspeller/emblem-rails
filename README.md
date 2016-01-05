@@ -1,4 +1,6 @@
-# Emblem::Rails
+# Emblem::Rails is unmaintained
+
+#Emblem rails is unmaintained - at this point I'd _extremely strongly_ recommend using `ember-cli` instead of `ember-rails`, and _slightly less strongly_ recommend not using emblem, as although the syntax is great it's turned out to not keep up with developments in hbs very quickly and as such using hbs has been a lot easier overall in my experience
 
 Integrate [Emblem.js](https://github.com/machty/emblem.js) with ember-rails
 
